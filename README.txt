@@ -6,7 +6,8 @@ Author:	Richard Leszczynski
 Email: 	richard@makerdyne.com
 Web:	www.MakerDyne.com
 
-WARNING: DO NOT LEAVE UNATTENDED WHEN IN USE
+WARNING: DO NOT LEAVE THE OVEN UNATTENDED WHEN IN USE. TURN OFF ARDUINO AND
+	 ALWAYS UNPLUG THE OVEN FROM THE MAINS ELECTRICITY SUPPLY AFTER USE.
 
 Notes on the hardware:
 
@@ -46,7 +47,7 @@ You will require:
 - 2 tactile SPST-NO switches (which make use of the MCU's internal pullups)
 - 1 green LED + resistor to indicate if the reflow process is in progress.
 - 1 red LED + resistor to indicate if the oven element is on or not.
-- 1 blue LED + resistor to indicate that the oven is too hot
+- 1 red LED + resistor to indicate that the oven is too hot
 - 1 green LED + resistor to indicate that the oven is "just right"
 - 1 blue LED + resistor to indicate that the oven is too cold
 - 1 Adafruit MAX31855 thermocouple amplifier breakout board
@@ -75,5 +76,5 @@ There are four parameters that need to be set for each reflow stage:
 3. Stage duration
 4. Stage control interval (monitor the process every X seconds)
 
-During cooling, it may be necessary to manually open and close the oven 
+During cooling, it will be necessary to manually open and close the oven 
 door according to the state of the three Goldilocks LEDs.
