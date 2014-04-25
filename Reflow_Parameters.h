@@ -13,14 +13,14 @@ double MAX_STARTING_TEMP = 30;
 #define SOAK_DURATION                   80
 #define SOAK_CONTROL_INTERVAL            1
 
-#define RAMP_TO_REFLOW_TARGET_TEMP     198
+#define RAMP_TO_REFLOW_TARGET_TEMP     240
 #define RAMP_TO_REFLOW_TEMP_ERROR        1
-#define RAMP_TO_REFLOW_DURATION         30
+#define RAMP_TO_REFLOW_DURATION         40
 #define RAMP_TO_REFLOW_CONTROL_INTERVAL  1
 
-#define REFLOW_TARGET_TEMP             198
+#define REFLOW_TARGET_TEMP             245
 #define REFLOW_TEMP_ERROR                1
-#define REFLOW_DURATION                 30
+#define REFLOW_DURATION                 60
 #define REFLOW_CONTROL_INTERVAL          1
  
 #define COOLING_TARGET_TEMP             40
